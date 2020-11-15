@@ -1,9 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+![screen-1](screenshots/screen-1.png "Screen 1")
 
 * Ruby version
 
@@ -11,7 +8,7 @@ Things you may want to cover:
 
 * Configuration
 
-rails new  rails_react_booking  -O --api--webpack=react
+rails new  rails_react_booking  --api--webpack=react
 
 
 * Database creation

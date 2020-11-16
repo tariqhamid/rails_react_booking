@@ -1,7 +1,6 @@
 import React from "react";
 import NewBooking from "components/NewBooking";
 import AllBookings from "components/AllBookings";
-import Filter from "components/Filter";
 
 class BookingsContainer extends React.Component {
   constructor(props) {
@@ -97,7 +96,6 @@ class BookingsContainer extends React.Component {
         <h2>Add new booking</h2>
         <NewBooking handleFormSubmit={this.handleFormSubmit} />
         <h2>All bookings</h2>
-        <Filter />
         <AllBookings
           // filter={this.state.filter}
           bookings={this.state.bookings}
